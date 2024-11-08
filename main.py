@@ -8,7 +8,7 @@ from PIL import Image
 load_dotenv()
 
 # Load the image using Pillow
-image_path = r"C:\Users\nipun\Downloads\Screenshot_2024-11-07_200624-removebg-preview.png"
+image_path = "icon.png"
 image = Image.open(image_path)
 
 # Configure Streamlit page settings
